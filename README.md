@@ -59,6 +59,10 @@ end
 object and `status`, `header`, # `body` tuple accordingly. Should return the
 same modified as needed.
 
+## Base Transformer
+
+To help with boilerplate code, base transformer request and response classes were added. [More info](./lib/rack/transform/transformers/base.rb).
+
 ## Contributing
 
 See the [contributing guide](./CONTRIBUTING.md).
