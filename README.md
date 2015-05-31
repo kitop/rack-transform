@@ -7,6 +7,9 @@ The need arouse when migrating an API from PHP to Ruby, where the URLs were
 different and the response body used to have more metadata that was moved to
 headers.
 
+[![Build Status](https://travis-ci.org/kitop/rack-transform.svg)](https://travis-ci.org/kitop/rack-transform)
+[![Code Climate](https://codeclimate.com/github/kitop/rack-transform/badges/gpa.svg)](https://codeclimate.com/github/kitop/rack-transform)
+
 ---
 
 ## Usage

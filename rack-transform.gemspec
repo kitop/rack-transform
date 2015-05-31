@@ -9,15 +9,15 @@ Gem::Specification.new do |s|
   s.authors     = ["Esteban Pastorino"]
   s.email       = ["ejpastorino@gmail.com"]
   s.homepage    = "http://github.com/kitop/rack-transform"
-  s.summary     = ""
-  s.description = ""
+  s.summary     = "Transform Rack request and responses on the fly."
+  s.description = "Rack::Transform is a middleware that attemps to make a compatibility layer between two different request/responses that should hit the same endpoint."
   s.license     = "MIT"
 
   s.files = Dir["{lib}/**/*", "MIT-LICENSE", "README.md"]
   s.test_files = Dir["spec/**/*"]
 
-  s.add_dependency "rack", ">= 1.5.0"
+  s.add_dependency "rack", "~> 1.5", ">= 1.5.0"
 
-  s.add_development_dependency "rspec"
+  s.add_development_dependency "rspec", "~> 3.2", ">= 3.2.0"
 end
 
