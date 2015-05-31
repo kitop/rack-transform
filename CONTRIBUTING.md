@@ -21,7 +21,7 @@ Write tests.
 
 Make the tests pass:
 
-    bundle exec rspec
+    rake
 
 Write a [good commit message][commit].
 Push to your fork.

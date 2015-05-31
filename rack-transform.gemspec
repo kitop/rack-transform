@@ -18,6 +18,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency "rack", "~> 1.5", ">= 1.5.0"
 
+  s.add_development_dependency "rake"
   s.add_development_dependency "rspec", "~> 3.2", ">= 3.2.0"
 end
 
