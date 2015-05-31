@@ -54,10 +54,10 @@ Transformer.new do |transformer|
 end
 ```
 
-`resquest` and `response` methods should receive an object that responds to
+`request` and `response` methods should receive an object that responds to
 `call`, it can be a proc or and object. And they will receive an `env` object
 and `status`, `header`, `body` tuple accordingly. Should return the same
-modified as needed. You can use the base transformers if you prefer to use 
+modified as needed. You can use the base transformers if you prefer to use
 actual classes instead of `proc`s.
 
 ## Base Transformer
