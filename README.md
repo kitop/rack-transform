@@ -55,9 +55,9 @@ end
 ```
 
 `resquest` and `response` methods should receinve and object that responds to
-`call`, it can be a proc # or and object. And they will receive an `env`
-object and `status`, `header`, # `body` tuple accordingly. Should return the
-same modified as needed.
+`call`, it can be a proc or and object. And they will receive an `env` object
+and `status`, `header`, `body` tuple accordingly. Should return the same
+modified as needed.
 
 ## Base Transformer
 
