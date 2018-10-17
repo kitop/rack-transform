@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.files = Dir["{lib}/**/*", "MIT-LICENSE", "README.md"]
   s.test_files = Dir["spec/**/*"]
 
-  s.add_dependency "rack", "~> 1.5", ">= 1.5.0"
+  s.add_dependency "rack", ">= 1.5.0", "< 3.0"
 
   s.add_development_dependency "rake"
   s.add_development_dependency "rspec", "~> 3.2", ">= 3.2.0"
